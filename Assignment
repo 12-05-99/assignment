@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Flexbox</title>
+        <style>
+        h1
+        {
+            color: blue;
+            background-color: cornflowerblue;
+        }
+        container 
+        { 
+  display: flex;
+  }
+.red {
+  background: orangered;
+  flex-grow: 1;
+}
+.green {
+  background: yellowgreen;
+}
+.blue {
+  background: steelblue;
+}
+.purple
+{
+    background: purple;
+}
+.yellow
+{
+    background: yellow;
+}
+.container  {
+  font-size: 5vw;
+  padding: 0.10em;
+  color: white;
+}
+</style>
+<div class="container">
+  <div class="red">1. red box</div>
+  <div class="green">2. green box</div>
+  <div class="blue">3. blue box</div>
+  <div class="purple">4. purple box</div>
+  <div class="yellow">5. yellow box</div>
+</div>
+</body>
+        <h1>FLEX BOX</h1>
+    </head>
+</html>
